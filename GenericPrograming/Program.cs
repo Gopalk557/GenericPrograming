@@ -15,6 +15,8 @@ namespace GenericPrograming
             Console.WriteLine(output);
             float floatoutput = FindMaxNumber.FloatMaxValueOfThree((float)111.3, (float)22.54, (float)3354.68);
             Console.WriteLine(floatoutput);
+            string strigoutput = FindMaxNumber.StringMaxValueOfThree("Gopal", "Gopu", "Gokul");
+            Console.WriteLine(strigoutput);
             Console.ReadKey();
         }
     }

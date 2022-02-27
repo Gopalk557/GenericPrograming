@@ -39,6 +39,21 @@ namespace GenericPrograming
                 return thirdNumber;
             }
         }
-        
+        public static string StringMaxValueOfThree(string firstString, string secondString, string thirdString)
+        {
+            if (firstString.CompareTo(secondString) > 0 && firstString.CompareTo(thirdString) > 0)
+            {
+                return firstString;
+            }
+            if (secondString.CompareTo(firstString) > 0 && secondString.CompareTo(thirdString) > 0)
+            {
+                return secondString;
+            }
+            else
+            {
+                return thirdString;
+            }
+        }
+
     }
 }
