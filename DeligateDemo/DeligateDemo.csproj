@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5547EDEA-4F39-4A53-BD70-6FA9B9CE4C99}</ProjectGuid>
+    <ProjectGuid>{21CD8C09-D0C7-4549-BA41-CE73CEAA4EF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GenericPrograming</RootNamespace>
-    <AssemblyName>GenericPrograming</AssemblyName>
+    <RootNamespace>DeligateDemo</RootNamespace>
+    <AssemblyName>DeligateDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MulticastDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FindMaxNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

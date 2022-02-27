@@ -11,6 +11,8 @@ namespace GenericPrograming
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Find MaxNumber");
+            int output = FindMaxNumber.FindMaxValueOfThree(11, 22, 33);
+            Console.WriteLine(output);
             Console.ReadKey();
         }
     }
