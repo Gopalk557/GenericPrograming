@@ -13,6 +13,8 @@ namespace GenericPrograming
             Console.WriteLine("Welcome to the Find MaxNumber");
             int output = FindMaxNumber.FindMaxValueOfThree(11, 22, 33);
             Console.WriteLine(output);
+            float floatoutput = FindMaxNumber.FloatMaxValueOfThree((float)111.3, (float)22.54, (float)3354.68);
+            Console.WriteLine(floatoutput);
             Console.ReadKey();
         }
     }
